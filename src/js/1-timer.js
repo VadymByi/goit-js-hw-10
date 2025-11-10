@@ -3,6 +3,7 @@ import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import '../css/1-timer.css';
+import soundPath from '../audio/monkey_cymbals_2s.wav';
 // console.log('Timer script loaded!');
 const startBtn = document.querySelector('[data-start]');
 const inputUser = document.querySelector('#datetime-picker');
@@ -16,7 +17,7 @@ let stopBtn = null;
 
 // Гифка и аудио для будильника
 const gifUrl = 'https://media.tenor.com/Jfvooie8DbAAAAAj/monkey-cymbals.gif';
-const soundPath = '/audio/monkey_cymbals_2s.wav';
+// const soundPath = '/audio/monkey_cymbals_2s.wav';
 
 startBtn.disabled = true;
 
